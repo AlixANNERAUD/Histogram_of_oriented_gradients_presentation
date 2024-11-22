@@ -18,7 +18,7 @@ Then, generate the slides:
 jupyter nbconvert --to slides Presentation.ipynb
 ```
 
-Finally, open the `Presentation.html` file in your browser.
+Finally, open the `Presentation.slides.html` file in your browser.
 
 ## ℹ️ About
 
