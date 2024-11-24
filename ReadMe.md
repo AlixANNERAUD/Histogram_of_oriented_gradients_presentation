@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Then, generate the slides:
 
 ```bash
-jupyter nbconvert --to slides Presentation.ipynb
+jupyter nbconvert --config ./jupyter_nbconvert_config.py Presentation.ipynb
 ```
 
 Finally, open the `Presentation.slides.html` file in your browser.
